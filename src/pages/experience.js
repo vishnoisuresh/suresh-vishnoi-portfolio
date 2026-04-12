@@ -14,26 +14,31 @@ export default function Experience() {
         {
           role: "Senior Cloud Consultant",
           company: "Red Hat",
+          duration: "April 2025 - Present",
           description: "Beratung von Kunden bei der Implementierung von RHEL, Ansible und der GitOpsifizierung von OpenShift. Expertise in RHACM, RHACS, Quay, ODF, OpenShift AI und OCP-V."
         },
         {
           role: "Cloud Consultant",
           company: "Red Hat",
+          duration: "Januar 2023 - April 2025",
           description: "Unterstützung von Enterprise-Kunden beim Aufbau moderner, skalierbarer Cloud-nativer IT-Infrastrukturen basierend auf Red Hat Technologien."
         },
         {
           role: "Senior Kubernetes Engineer",
           company: "Eurofins",
+          duration: "September 2021 - Dezember 2022",
           description: "Verwaltung, Optimierung und Skalierung von Kubernetes-Umgebungen zur Unterstützung von unternehmenskritischen Anwendungen."
         },
         {
           role: "System Engineer DevOps",
           company: "Kuehne + Nagel",
+          duration: "November 2018 - September 2021",
           description: "Aufbau und Wartung von DevOps-Pipelines und Infrastruktur-Automatisierung für globale IT-Projekte."
         },
         {
           role: "Assistant IT Operations",
           company: "Mondia Media MENA",
+          duration: "Juli 2017 - Oktober 2018",
           description: "IT-Betriebsspezialist mit Fokus auf Docker, DevOps, Linux und Systemverwaltung im Unterhaltungssektor."
         }
       ]
@@ -44,26 +49,31 @@ export default function Experience() {
         {
           role: "Senior Cloud Consultant",
           company: "Red Hat",
+          duration: "April 2025 - Present",
           description: "Consulting customers on RHEL, Ansible, and GitOpsifying OpenShift. Expertise in RHACM, RHACS, Quay, ODF, OpenShift AI, and OCP-V."
         },
         {
           role: "Cloud Consultant",
           company: "Red Hat",
+          duration: "January 2023 - April 2025",
           description: "Assisting enterprise customers in building modern, scalable cloud-native IT infrastructures based on Red Hat technologies."
         },
         {
           role: "Senior Kubernetes Engineer",
           company: "Eurofins",
+          duration: "September 2021 - December 2022",
           description: "Managing, optimizing, and scaling Kubernetes environments to support mission-critical applications."
         },
         {
           role: "System Engineer DevOps",
           company: "Kuehne + Nagel",
+          duration: "November 2018 - September 2021",
           description: "Building and maintaining DevOps pipelines and infrastructure automation for global IT projects."
         },
         {
           role: "Assistant IT Operations",
           company: "Mondia Media MENA",
+          duration: "July 2017 - October 2018",
           description: "IT operations specialist focusing on Docker, DevOps, Linux, and systems administration in the entertainment industry."
         }
       ]
@@ -95,7 +105,10 @@ export default function Experience() {
               
               <div className="bg-white dark:bg-[#111] border border-gray-200 dark:border-white/10 p-6 md:p-8 rounded-3xl hover:border-blue-300 dark:hover:border-blue-500/30 transition-colors shadow-sm dark:shadow-none">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{exp.role}</h3>
-                <p className="text-blue-600 dark:text-blue-400 font-medium mb-4 text-lg">{exp.company}</p>
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+                  <p className="text-blue-600 dark:text-blue-400 font-medium text-lg">{exp.company}</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm font-mono mt-1 sm:mt-0">{exp.duration}</p>
+                </div>
                 <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                   {exp.description}
                 </p>
