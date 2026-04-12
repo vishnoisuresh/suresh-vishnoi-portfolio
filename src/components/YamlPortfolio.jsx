@@ -9,7 +9,7 @@ const YamlPortfolio = () => {
     'deployment.yaml': `apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frank-reimer-consulting
+  name: suresh-vishnoi-consulting
   labels:
     app: portfolio
     tier: frontend
@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: consultant-profile
-        image: quay.io/freimer/portfolio:latest
+        image: quay.io/svishnoi/portfolio:latest
         env:
         - name: ROLE
           value: "IT Consultant & Systems Engineer"
@@ -75,8 +75,8 @@ spec:
   selector:
     app: portfolio
   endpoints:
-    - name: "Frank Reimer"
-      email: "frank.reimer@reimer-itc.com"
+    - name: "Suresh Vishnoi"
+      email: "suresh.vishnoi@vishnoi-itc.com"
       phone: "+49 151 22358459"
       location: "Hamburg / Schleswig-Holstein, Germany"`
   };
@@ -142,7 +142,7 @@ spec:
           <div className="flex-1 flex justify-center">
             <span className="text-xs text-gray-400 flex items-center">
               <FiTerminal size={14} className="mr-2" />
-              freimer@openshift-cluster:~
+              svishnoi@openshift-cluster:~
             </span>
           </div>
         </div>
@@ -206,13 +206,13 @@ spec:
         transition={{ delay: 0.5, duration: 0.5 }}
         className="mt-8 flex space-x-6"
       >
-        <a href="mailto:frank.reimer@reimer-itc.com" className="text-gray-400 hover:text-white transition-colors flex items-center">
+        <a href="mailto:suresh.vishnoi@vishnoi-itc.com" className="text-gray-400 hover:text-white transition-colors flex items-center">
           <FiMail size={20} className="mr-2" /> Email
         </a>
-        <a href="https://de.linkedin.com/in/frank-reimer-3356a71a" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center">
+        <a href="https://de.linkedin.com/in/suresh-vishnoi-3356a71a" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center">
           <FiLinkedin size={20} className="mr-2" /> LinkedIn
         </a>
-        <a href="https://www.xing.com/profile/Frank_Reimer10" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center">
+        <a href="https://www.xing.com/profile/Suresh_Vishnoi" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors flex items-center">
           <FiGithub size={20} className="mr-2" /> Xing
         </a>
       </motion.div>

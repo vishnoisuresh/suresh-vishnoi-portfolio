@@ -73,7 +73,7 @@ export default function Experience() {
   return (
     <>
       <Head>
-        <title>{t.title} | Frank Reimer IT Consulting</title>
+        <title>{t.title} | Suresh Vishnoi IT Consulting</title>
       </Head>
       <motion.div 
         initial={{ opacity: 0, y: 20 }}

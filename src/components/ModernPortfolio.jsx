@@ -28,9 +28,9 @@ const ModernPortfolio = () => {
       <nav className="max-w-6xl mx-auto flex justify-between items-center mb-12 relative z-10">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center font-bold text-white">FR</div>
-          <span className="font-semibold text-lg tracking-tight">Reimer IT Consulting</span>
+          <span className="font-semibold text-lg tracking-tight">Vishnoi IT Consulting</span>
         </div>
-        <a href="mailto:frank.reimer@reimer-itc.com" className="bg-white text-black px-4 py-2 rounded-full font-medium hover:bg-gray-200 transition-colors">
+        <a href="mailto:suresh.vishnoi@vishnoi-itc.com" className="bg-white text-black px-4 py-2 rounded-full font-medium hover:bg-gray-200 transition-colors">
           Get in touch
         </a>
       </nav>
@@ -54,15 +54,15 @@ const ModernPortfolio = () => {
                 Building scalable <span className="text-red-500">Cloud-Native</span> & <span className="text-blue-500">OpenShift</span> infrastructure.
               </h1>
               <p className="text-gray-400 max-w-lg text-lg">
-                I'm Frank Reimer. With over 20 years of experience, I help enterprises transition from traditional silos to agile, software-defined datacenters.
+                I'm Suresh Vishnoi. With over 20 years of experience, I help enterprises transition from traditional silos to agile, software-defined datacenters.
               </p>
             </div>
             <div className="flex justify-between items-end mt-8">
               <div className="flex space-x-4">
-                <a href="https://de.linkedin.com/in/frank-reimer-3356a71a" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 hover:bg-white/10 rounded-full border border-white/10 transition-colors">
+                <a href="https://de.linkedin.com/in/suresh-vishnoi-3356a71a" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 hover:bg-white/10 rounded-full border border-white/10 transition-colors">
                   <FiLinkedin size={24} />
                 </a>
-                <a href="https://www.xing.com/profile/Frank_Reimer10" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 hover:bg-white/10 rounded-full border border-white/10 transition-colors">
+                <a href="https://www.xing.com/profile/Suresh_Vishnoi" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 hover:bg-white/10 rounded-full border border-white/10 transition-colors">
                   <FiGithub size={24} />
                 </a>
               </div>
@@ -157,9 +157,9 @@ const ModernPortfolio = () => {
             <h3 className="text-2xl font-bold mb-2">Need to scale your DevOps infrastructure?</h3>
             <p className="text-red-100">Let's talk about CI/CD, Software Defined Datacenters, and OpenStack.</p>
           </div>
-          <a href="mailto:frank.reimer@reimer-itc.com" className="relative z-10 flex items-center justify-center space-x-2 bg-white text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform w-full md:w-auto shadow-xl">
+          <a href="mailto:suresh.vishnoi@vishnoi-itc.com" className="relative z-10 flex items-center justify-center space-x-2 bg-white text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform w-full md:w-auto shadow-xl">
             <FiMail size={20} />
-            <span>frank.reimer@reimer-itc.com</span>
+            <span>suresh.vishnoi@vishnoi-itc.com</span>
           </a>
         </motion.div>
 
@@ -167,7 +167,7 @@ const ModernPortfolio = () => {
       
       {/* Footer */}
       <footer className="max-w-6xl mx-auto mt-12 text-center text-gray-600 text-sm pb-8 relative z-10">
-        &copy; {new Date().getFullYear()} Frank Reimer IT Consulting. All rights reserved. <br/>
+        &copy; {new Date().getFullYear()} Suresh Vishnoi IT Consulting. All rights reserved. <br/>
         <a href="#" className="hover:text-gray-300 mx-2 transition-colors">Imprint</a> | <a href="#" className="hover:text-gray-300 mx-2 transition-colors">Privacy Policy</a>
       </footer>
 
@@ -206,7 +206,7 @@ const ModernPortfolio = () => {
                   </div>
                   <div className="space-y-4 text-gray-300 leading-relaxed">
                     <p>
-                      Mein Name ist Frank Reimer. Ich bin IT-Spezialist und freiberuflicher IT-Berater mit Sitz in Schleswig-Holstein in der Nähe von Hamburg.
+                      Mein Name ist Suresh Vishnoi. Ich bin IT-Spezialist und freiberuflicher IT-Berater mit Sitz in Schleswig-Holstein in der Nähe von Hamburg.
                     </p>
                     <p>
                       Ich verfüge über mehr als 20 Jahre Berufserfahrung im IT-Bereich mit Schwerpunkt auf IT-Infrastrukturarchitektur und Systems Engineering. Meistens arbeite ich mit Linux (Red Hat-zertifiziert) und Opensource-Tools, die in modernen IT-Rechenzentren verwendet werden.
