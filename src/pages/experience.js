@@ -21,7 +21,18 @@ export default function Experience() {
           role: "Cloud Consultant",
           company: "Red Hat",
           duration: "Januar 2023 - April 2025",
-          description: "Unterstützung von Enterprise-Kunden beim Aufbau moderner, skalierbarer Cloud-nativer IT-Infrastrukturen basierend auf Red Hat Technologien."
+          description: (
+            <>
+              Unterstützung von Enterprise-Kunden beim Aufbau moderner, skalierbarer Cloud-nativer IT-Infrastrukturen basierend auf Red Hat Technologien.
+              <br /><br />
+              <strong>Consulting Projekte:</strong>
+              <ul className="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>German Public Sector:</strong> Implementierung von OpenShift auf vSphere, Day 2 Operations mit ArgoCD GitOps und RHACS-Implementierung nach BSI-Vorgaben.</li>
+                <li><strong>Banking Sector:</strong> Health Check für mehrere OpenShift Container Plattformen.</li>
+                <li><strong>Manufacturing Industry:</strong> Design und Implementierung von OpenShift auf vSphere mit ODF, ArgoCD GitOps mit RHACM-Richtlinien, RHACS und Monitoring (Prometheus/Loki).</li>
+              </ul>
+            </>
+          )
         },
         {
           role: "Senior Kubernetes Engineer",
@@ -56,7 +67,18 @@ export default function Experience() {
           role: "Cloud Consultant",
           company: "Red Hat",
           duration: "January 2023 - April 2025",
-          description: "Assisting enterprise customers in building modern, scalable cloud-native IT infrastructures based on Red Hat technologies."
+          description: (
+            <>
+              Assisting enterprise customers in building modern, scalable cloud-native IT infrastructures based on Red Hat technologies.
+              <br /><br />
+              <strong>Consulting Projects:</strong>
+              <ul className="list-disc pl-5 mt-2 space-y-1">
+                <li><strong>German Public Sector:</strong> Implemented OpenShift Container Platform on vSphere, Day 2 Operations using ArgoCD GitOps, and RHACS policies for BSI compliance.</li>
+                <li><strong>Banking Sector:</strong> Conducted health checks of multiple OpenShift Container Platforms.</li>
+                <li><strong>Manufacturing Industry:</strong> Designed and implemented OpenShift on vSphere with ODF, ArgoCD GitOps with RHACM policies, RHACS, and Monitoring (Prometheus & Loki).</li>
+              </ul>
+            </>
+          )
         },
         {
           role: "Senior Kubernetes Engineer",
@@ -109,9 +131,9 @@ export default function Experience() {
                   <p className="text-blue-600 dark:text-blue-400 font-medium text-lg">{exp.company}</p>
                   <p className="text-gray-500 dark:text-gray-400 text-sm font-mono mt-1 sm:mt-0">{exp.duration}</p>
                 </div>
-                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                <div className="text-gray-600 dark:text-gray-400 leading-relaxed">
                   {exp.description}
-                </p>
+                </div>
               </div>
             </div>
           ))}
