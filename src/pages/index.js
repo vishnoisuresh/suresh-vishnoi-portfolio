@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 auto-rows-[minmax(180px,auto)]">
       
-      <Link href="/about" className="md:col-span-2 row-span-2 group focus:outline-none">
+      <Link href="/about" className="md:col-span-3 row-span-2 group focus:outline-none">
         <motion.div 
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
           className="bg-white dark:bg-[#111] border border-gray-200 dark:border-white/10 rounded-3xl p-8 relative overflow-hidden h-full flex flex-col group-hover:border-red-500/50 transition-all shadow-sm dark:shadow-none"
@@ -78,19 +78,7 @@ export default function Home() {
         </motion.div>
       </Link>
 
-      <Link href="/experience" className="group focus:outline-none">
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.1 }}
-          className="bg-white dark:bg-[#111] border border-gray-200 dark:border-white/10 rounded-3xl p-8 flex flex-col items-center justify-center text-center relative overflow-hidden h-full group-hover:border-blue-500/50 transition-all shadow-sm dark:shadow-none"
-        >
-          <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-gray-100 dark:from-white/5 to-transparent"></div>
-          <h2 className="text-7xl font-black text-gray-900 dark:text-white mb-2">4<span className="text-red-500">+</span></h2>
-          <p className="text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wider text-sm mb-4">{t.expYears}</p>
-          <div className="text-gray-700 dark:text-gray-300 text-sm font-medium flex items-center bg-gray-100 dark:bg-white/10 px-4 py-2 rounded-full transform group-hover:translate-y-[-4px] transition-all">
-            {t.projBtn} <FiArrowRight className="ml-2" />
-          </div>
-        </motion.div>
-      </Link>
+
 
       <motion.div 
         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
