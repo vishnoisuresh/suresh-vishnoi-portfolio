@@ -38,13 +38,36 @@ export default function Experience() {
           role: "Senior Kubernetes Engineer",
           company: "Eurofins",
           duration: "September 2021 - Dezember 2022",
-          description: "Verwaltung, Optimierung und Skalierung von Kubernetes-Umgebungen zur Unterstützung von unternehmenskritischen Anwendungen."
+          description: (
+            <>
+              Verwaltung, Optimierung und Skalierung von Kubernetes-Umgebungen zur Unterstützung von unternehmenskritischen Anwendungen.
+              <ul className="list-disc pl-5 mt-3 space-y-1">
+                <li>Design, Architektur und Implementierung von Container-Plattformen (Kubernetes/Rancher) auf virtualisierten Umgebungen (vSphere).</li>
+                <li>Monitoring- und Logging-Infrastrukturkomponenten (Prometheus Stack und Loki).</li>
+                <li>Plattformintegration mit externem Storage (NetApp und S3).</li>
+                <li>Aufbau von CI/CD-Systemen für Infrastructure as Code (IaC).</li>
+              </ul>
+            </>
+          )
         },
         {
           role: "System Engineer DevOps",
           company: "Kuehne + Nagel",
           duration: "November 2018 - September 2021",
-          description: "Aufbau und Wartung von DevOps-Pipelines und Infrastruktur-Automatisierung für globale IT-Projekte."
+          description: (
+            <>
+              Aufbau und Wartung von DevOps-Pipelines und Infrastruktur-Automatisierung für globale IT-Projekte.
+              <ul className="list-disc pl-5 mt-3 space-y-1">
+                <li>Design, Architektur und Implementierung von Kubernetes/OpenShift-Container-Plattformen (vSphere und Bare-Metal).</li>
+                <li>Verwaltung der internen Container Image Registry.</li>
+                <li>Day-2-Operations via Automatisierung (Bash/Python-Skripte) über Rundeck.</li>
+                <li>Monitoring- und Logging-Komponenten (EFK Stack, Prometheus, Centreon, checkMK, Grafana).</li>
+                <li>Integration von Identity Manager Lösungen (wie IPA) mit OpenShift und SDN-Erweiterung (NSX-T).</li>
+                <li>Integration der Container-Plattform mit Enterprise-Storage (NetApp) und Object Storage.</li>
+                <li>Beratung beim Aufbau von CI/CD-Pipelines (Jenkins, GitLab).</li>
+              </ul>
+            </>
+          )
         },
         {
           role: "Assistant IT Operations",
@@ -84,13 +107,36 @@ export default function Experience() {
           role: "Senior Kubernetes Engineer",
           company: "Eurofins",
           duration: "September 2021 - December 2022",
-          description: "Managing, optimizing, and scaling Kubernetes environments to support mission-critical applications."
+          description: (
+            <>
+              Managing, optimizing, and scaling Kubernetes environments to support mission-critical applications.
+              <ul className="list-disc pl-5 mt-3 space-y-1">
+                <li>Design, architect and Implement Container Platform(Kubernetes/Rancher) on Virtualized Environment (vSphere).</li>
+                <li>Monitoring and logging infrastructure components using Prometheus stack and Loki.</li>
+                <li>Platform integration with external Storage NetApp and S3.</li>
+                <li>Build CICD system for IaC setup.</li>
+              </ul>
+            </>
+          )
         },
         {
           role: "System Engineer DevOps",
           company: "Kuehne + Nagel",
           duration: "November 2018 - September 2021",
-          description: "Building and maintaining DevOps pipelines and infrastructure automation for global IT projects."
+          description: (
+            <>
+              Building and maintaining DevOps pipelines and infrastructure automation for global IT projects.
+              <ul className="list-disc pl-5 mt-3 space-y-1">
+                <li>Design, architect and Implement Container Platform (Kubernetes/OpenShift) on Virtualized Environment (vSphere) and Bare Metal Servers.</li>
+                <li>Managing Internal Container Image Registry.</li>
+                <li>Doing Day 2 Operations such as Automation using bash scripts / python on rundeck.</li>
+                <li>Monitoring and logging infrastructure components using EFK Stack and Prometheus, Centreon, checkMK and Grafana.</li>
+                <li>Integrating Identity Manager solutions (IPA) with OpenShift and extending the Container Platform with Software Defined Networking (NSX-T).</li>
+                <li>Integrating the Container Platform with Storage such as NetApp and Object Storage.</li>
+                <li>Consulting with developers to build CI/CD Pipelines such as Jenkins, Gitlab.</li>
+              </ul>
+            </>
+          )
         },
         {
           role: "Assistant IT Operations",
