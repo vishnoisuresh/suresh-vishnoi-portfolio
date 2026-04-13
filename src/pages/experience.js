@@ -27,8 +27,8 @@ export default function Experience() {
               <br /><br />
               <strong>Consulting Projekte:</strong>
               <ul className="list-disc pl-5 mt-2 space-y-1">
-                <li><strong>German Public Sector:</strong> Implementierung von OpenShift auf vSphere, Day 2 Operations mit ArgoCD GitOps und RHACS-Implementierung nach BSI-Vorgaben.</li>
-                <li><strong>Banking Sector:</strong> Health Check für mehrere OpenShift Container Plattformen.</li>
+                <li><strong>German Public Sector:</strong> Implementierung von OpenShift auf vSphere mit ODF, Day 2 Operations mit ArgoCD GitOps und RHACS-Implementierung nach BSI-Vorgaben.</li>
+                <li><strong>Banking Sector:</strong> Health Check für mehrere OpenShift Container Plattformen und GitOps-Umgebungen.</li>
                 <li><strong>Manufacturing Industry:</strong> Design und Implementierung von OpenShift auf vSphere mit ODF, ArgoCD GitOps mit RHACM-Richtlinien, RHACS und Monitoring (Prometheus/Loki).</li>
               </ul>
             </>
@@ -96,8 +96,8 @@ export default function Experience() {
               <br /><br />
               <strong>Consulting Projects:</strong>
               <ul className="list-disc pl-5 mt-2 space-y-1">
-                <li><strong>German Public Sector:</strong> Implemented OpenShift Container Platform on vSphere, Day 2 Operations using ArgoCD GitOps, and RHACS policies for BSI compliance.</li>
-                <li><strong>Banking Sector:</strong> Conducted health checks of multiple OpenShift Container Platforms.</li>
+                <li><strong>German Public Sector:</strong> Implemented OpenShift Container Platform on vSphere with ODF, Day 2 Operations using ArgoCD GitOps, and RHACS policies for BSI compliance.</li>
+                <li><strong>Banking Sector:</strong> Conducted health checks of multiple OpenShift Container Platforms and GitOps environments.</li>
                 <li><strong>Manufacturing Industry:</strong> Designed and implemented OpenShift on vSphere with ODF, ArgoCD GitOps with RHACM policies, RHACS, and Monitoring (Prometheus & Loki).</li>
               </ul>
             </>
