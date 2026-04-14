@@ -74,7 +74,7 @@ export default function Home() {
                 <a href="https://www.linkedin.com/in/vishnoisuresh/" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-100 dark:bg-white/5 hover:bg-gray-200 dark:hover:bg-white/10 rounded-full border border-gray-200 dark:border-white/10 transition-colors text-gray-700 dark:text-white">
                   <FiLinkedin size={24} />
                 </a>
-                <a href="https://github.com" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-100 dark:bg-white/5 hover:bg-gray-200 dark:hover:bg-white/10 rounded-full border border-gray-200 dark:border-white/10 transition-colors text-gray-700 dark:text-white">
+                <a href="https://github.com/vishnoisuresh" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="p-3 bg-gray-100 dark:bg-white/5 hover:bg-gray-200 dark:hover:bg-white/10 rounded-full border border-gray-200 dark:border-white/10 transition-colors text-gray-700 dark:text-white">
                   <FiGithub size={24} />
                 </a>
               </div>

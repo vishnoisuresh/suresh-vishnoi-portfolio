@@ -17,7 +17,8 @@ export default function App({ Component, pageProps }) {
     "url": "https://vishnoisuresh.github.io/suresh-vishnoi-portfolio",
     "sameAs": [
       "https://www.linkedin.com/in/vishnoisuresh",
-      "https://stackoverflow.com/users/8803619/suresh-vishnoi"
+      "https://stackoverflow.com/users/8803619/suresh-vishnoi",
+      "https://github.com/vishnoisuresh"
     ],
     "description": "Senior Cloud Consultant specializing in Kubernetes, OpenShift, Linux, and Cloud-Native Engineering. Helping enterprise customers migrate to agile, containerized platforms.",
     "email": "vishnoi.suresh2016@gmail.com",
