@@ -133,10 +133,6 @@ const Layout = ({ children }) => {
             <a href="/suresh-vishnoi-portfolio/llms.txt" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors flex items-center gap-1">
               <span aria-hidden="true">🤖</span> AI/LLM Text
             </a>
-            <span className="opacity-50">|</span>
-            <a href="/suresh-vishnoi-portfolio/suresh-vishnoi-resume.pdf" download className="hover:text-red-500 transition-colors flex items-center gap-1">
-              <span aria-hidden="true">📄</span> PDF Download
-            </a>
           </div>
 
           <div className="space-x-4">

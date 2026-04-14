@@ -4,7 +4,6 @@ Allow: /
 Allow: /llms.txt
 Allow: /portfolio.json
 Allow: /data.json
-Allow: /suresh-vishnoi-resume.pdf
 
 # Explicitly welcome popular AI crawlers
 User-agent: GPTBot
