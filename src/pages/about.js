@@ -47,31 +47,31 @@ export default function About() {
       <Head>
         <title>{t.title} | Suresh Vishnoi IT Consulting</title>
       </Head>
-      <motion.div 
+      <motion.article 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         className="max-w-4xl mx-auto"
       >
-        <div className="flex items-center space-x-4 mb-8">
-          <div className="p-3 bg-red-100 dark:bg-red-500/10 text-red-600 dark:text-red-500 rounded-xl">
+        <header className="flex items-center space-x-4 mb-8">
+          <div className="p-3 bg-red-100 dark:bg-red-500/10 text-red-600 dark:text-red-500 rounded-xl" aria-hidden="true">
             <FiUser size={32} />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">{t.title}</h1>
-        </div>
+        </header>
 
-        <div className="bg-white dark:bg-[#111] border border-gray-200 dark:border-white/10 rounded-3xl p-8 md:p-12 space-y-8 leading-relaxed text-gray-700 dark:text-gray-300 text-lg shadow-sm dark:shadow-none">
+        <section className="bg-white dark:bg-[#111] border border-gray-200 dark:border-white/10 rounded-3xl p-8 md:p-12 space-y-8 leading-relaxed text-gray-700 dark:text-gray-300 text-lg shadow-sm dark:shadow-none">
           <p>{t.p1}</p>
           <p>{t.p2}</p>
           <p>{t.p3}</p>
-        </div>
+        </section>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-          <div className="bg-white dark:bg-[#111] border border-gray-200 dark:border-white/10 rounded-3xl p-8 shadow-sm dark:shadow-none">
-            <div className="flex items-center space-x-3 mb-6">
-              <FiBook size={24} className="text-blue-500 dark:text-blue-400" />
+          <section className="bg-white dark:bg-[#111] border border-gray-200 dark:border-white/10 rounded-3xl p-8 shadow-sm dark:shadow-none">
+            <header className="flex items-center space-x-3 mb-6">
+              <FiBook size={24} className="text-blue-500 dark:text-blue-400" aria-hidden="true" />
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{t.degTitle}</h2>
-            </div>
+            </header>
             <ul className="space-y-4 text-gray-700 dark:text-gray-300">
               <li className="flex items-start">
                 <span className="w-2 h-2 mt-2 mr-3 bg-blue-500 rounded-full shrink-0"></span>
@@ -86,13 +86,13 @@ export default function About() {
                 <span>{t.deg3}</span>
               </li>
             </ul>
-          </div>
+          </section>
 
-          <div className="bg-white dark:bg-[#111] border border-gray-200 dark:border-white/10 rounded-3xl p-8 shadow-sm dark:shadow-none">
-            <div className="flex items-center space-x-3 mb-6">
-              <FiAward size={24} className="text-red-500 dark:text-red-400" />
+          <section className="bg-white dark:bg-[#111] border border-gray-200 dark:border-white/10 rounded-3xl p-8 shadow-sm dark:shadow-none">
+            <header className="flex items-center space-x-3 mb-6">
+              <FiAward size={24} className="text-red-500 dark:text-red-400" aria-hidden="true" />
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{t.certTitle}</h2>
-            </div>
+            </header>
             <ul className="space-y-4 text-gray-700 dark:text-gray-300">
               <li className="flex items-start">
                 <span className="w-2 h-2 mt-2 mr-3 bg-red-500 rounded-full shrink-0"></span>
@@ -115,9 +115,9 @@ export default function About() {
                 <span>{t.cert5}</span>
               </li>
             </ul>
-          </div>
+          </section>
         </div>
-      </motion.div>
+      </motion.article>
     </>
   );
 }

@@ -1,0 +1,149 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Suresh Vishnoi",
+  "jobTitle": "Senior Cloud Consultant",
+  "url": "https://vishnoisuresh.github.io/suresh-vishnoi-portfolio",
+  "sameAs": [
+    "https://www.linkedin.com/in/vishnoisuresh",
+    "https://stackoverflow.com/users/8803619/suresh-vishnoi"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hamburg",
+    "addressCountry": "Germany"
+  },
+  "email": "vishnoi.suresh2016@gmail.com",
+  "description": "Senior Cloud Consultant specializing in Kubernetes, OpenShift, Linux, and Cloud-Native Engineering. Helping enterprise customers migrate to agile, containerized platforms.",
+  "knowsAbout": [
+    "Kubernetes",
+    "OpenShift",
+    "Linux",
+    "Docker",
+    "DevOps",
+    "Red Hat Enterprise Linux (RHEL)",
+    "Ansible",
+    "GitOps",
+    "RHACM",
+    "RHACS",
+    "Quay",
+    "ODF",
+    "OpenShift AI",
+    "Software Development"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "Red Hat Certified Architect (RHCA)"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "Red Hat Certified Engineer (RHCE)"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "Red Hat Certified Specialist in Openshift Virtualization"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "Certified Kubernetes Administrator (CKA)"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Certification",
+      "name": "Certified Kubernetes Security Specialist (CKS)"
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Fachhochschule Kiel",
+      "member": {
+        "@type": "OrganizationRole",
+        "roleName": "Masters, Information Engineering",
+        "startDate": "2017",
+        "endDate": "2019"
+      }
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Plymouth",
+      "member": {
+        "@type": "OrganizationRole",
+        "roleName": "Bachelor's degree Project, Computer Science",
+        "startDate": "2015",
+        "endDate": "2015"
+      }
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Vellore Institute of Technology",
+      "member": {
+        "@type": "OrganizationRole",
+        "roleName": "Bachelor's degree, Computer Science",
+        "startDate": "2011",
+        "endDate": "2015"
+      }
+    }
+  ],
+  "worksFor": [
+    {
+      "@type": "EmployeeRole",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Red Hat"
+      },
+      "roleName": "Senior Cloud Consultant",
+      "startDate": "2025-04",
+      "location": "Hamburg, Germany"
+    },
+    {
+      "@type": "EmployeeRole",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Red Hat"
+      },
+      "roleName": "Cloud Consultant",
+      "startDate": "2023-01",
+      "endDate": "2025-04",
+      "location": "Germany"
+    },
+    {
+      "@type": "EmployeeRole",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Eurofins"
+      },
+      "roleName": "Senior Kubernetes Engineer",
+      "startDate": "2021-09",
+      "endDate": "2022-12",
+      "location": "Hamburg, Germany"
+    },
+    {
+      "@type": "EmployeeRole",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Kuehne + Nagel"
+      },
+      "roleName": "System Engineer DevOps",
+      "startDate": "2018-11",
+      "endDate": "2021-09",
+      "location": "Hamburg Area, Germany"
+    },
+    {
+      "@type": "EmployeeRole",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Mondia Media MENA"
+      },
+      "roleName": "Assistant IT Operations",
+      "startDate": "2017-07",
+      "endDate": "2018-10",
+      "location": "Hamburg Area, Germany"
+    }
+  ]
+}

@@ -19,12 +19,35 @@ export default function App({ Component, pageProps }) {
       "https://www.linkedin.com/in/vishnoisuresh",
       "https://stackoverflow.com/users/8803619/suresh-vishnoi"
     ],
-    "description": "I help enterprise customers build stable, scalable, and modern IT infrastructures – focusing on Kubernetes, OpenShift, and Linux.",
+    "description": "Senior Cloud Consultant specializing in Kubernetes, OpenShift, Linux, and Cloud-Native Engineering. Helping enterprise customers migrate to agile, containerized platforms.",
+    "email": "vishnoi.suresh2016@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Hamburg",
       "addressCountry": "Germany"
-    }
+    },
+    "knowsAbout": [
+      "Kubernetes", "OpenShift", "Linux", "Docker", "DevOps",
+      "Red Hat Enterprise Linux (RHEL)", "Ansible", "GitOps",
+      "RHACM", "RHACS", "Quay", "ODF", "OpenShift AI"
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Red Hat Certified Architect (RHCA)"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Certified Kubernetes Administrator (CKA)"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Certification",
+        "name": "Certified Kubernetes Security Specialist (CKS)"
+      }
+    ]
   };
 
   return (
@@ -36,6 +59,7 @@ export default function App({ Component, pageProps }) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="canonical" href="https://vishnoisuresh.github.io/suresh-vishnoi-portfolio" />
           <link rel="alternate" type="text/plain" title="LLMs representation" href="https://vishnoisuresh.github.io/suresh-vishnoi-portfolio/llms.txt" />
+          <link rel="alternate" type="application/json" title="Machine-readable portfolio JSON" href="https://vishnoisuresh.github.io/suresh-vishnoi-portfolio/portfolio.json" />
           <meta property="og:title" content="Suresh Vishnoi - Senior Cloud Consultant" />
           <meta property="og:description" content="Portfolio of Suresh Vishnoi, Senior Cloud Consultant at Red Hat specializing in Kubernetes, OpenShift, and Linux infrastructure." />
           <meta property="og:type" content="website" />

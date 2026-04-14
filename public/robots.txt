@@ -1,6 +1,23 @@
+# Allow all web crawlers and AI agents
 User-agent: *
 Allow: /
-Allow: /api/llms.txt
 Allow: /llms.txt
+Allow: /portfolio.json
+Allow: /data.json
+Allow: /suresh-vishnoi-resume.pdf
+
+# Explicitly welcome popular AI crawlers
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: OmgiliBot
+Allow: /
 
 Sitemap: https://vishnoisuresh.github.io/suresh-vishnoi-portfolio/sitemap.xml
