@@ -122,9 +122,24 @@ const Layout = ({ children }) => {
       </main>
 
       <footer className="border-t border-gray-200 dark:border-white/5 bg-gray-50 dark:bg-[#0a0a0a] py-8 mt-12 transition-colors duration-300">
-        <div className="max-w-6xl mx-auto px-4 md:px-8 text-center text-gray-500 text-sm flex flex-col md:flex-row justify-between items-center">
+        <div className="max-w-6xl mx-auto px-4 md:px-8 text-center text-gray-500 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
           <p>&copy; {new Date().getFullYear()} Suresh Vishnoi. All rights reserved.</p>
-          <div className="mt-4 md:mt-0 space-x-4">
+          
+          <div className="flex flex-wrap justify-center gap-4 text-xs font-medium bg-gray-200 dark:bg-white/5 px-4 py-2 rounded-full">
+            <a href="/suresh-vishnoi-portfolio/data.json" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors flex items-center gap-1">
+              <span aria-hidden="true">{'{ }'}</span> JSON Resume
+            </a>
+            <span className="opacity-50">|</span>
+            <a href="/suresh-vishnoi-portfolio/llms.txt" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors flex items-center gap-1">
+              <span aria-hidden="true">🤖</span> AI/LLM Text
+            </a>
+            <span className="opacity-50">|</span>
+            <a href="/suresh-vishnoi-portfolio/suresh-vishnoi-resume.pdf" download className="hover:text-red-500 transition-colors flex items-center gap-1">
+              <span aria-hidden="true">📄</span> PDF Download
+            </a>
+          </div>
+
+          <div className="space-x-4">
             <Link href="#" className="hover:text-gray-800 dark:hover:text-gray-300 transition-colors">{t.imprint}</Link>
             <Link href="#" className="hover:text-gray-800 dark:hover:text-gray-300 transition-colors">{t.privacy}</Link>
           </div>

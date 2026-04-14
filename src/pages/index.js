@@ -57,9 +57,17 @@ export default function Home() {
               <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6 text-gray-900 dark:text-white">
                 {t.title}
               </h1>
-              <p className="text-gray-600 dark:text-gray-400 max-w-lg text-lg">
+              <p className="text-gray-600 dark:text-gray-400 max-w-lg text-lg mb-4">
                 {t.desc}
               </p>
+              
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-3 py-1 bg-red-100 dark:bg-red-500/10 text-red-600 dark:text-red-400 text-xs font-bold rounded-md">OpenShift</span>
+                <span className="px-3 py-1 bg-blue-100 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400 text-xs font-bold rounded-md">Kubernetes</span>
+                <span className="px-3 py-1 bg-gray-200 dark:bg-white/10 text-gray-800 dark:text-gray-200 text-xs font-bold rounded-md">GitOps</span>
+                <span className="px-3 py-1 bg-gray-200 dark:bg-white/10 text-gray-800 dark:text-gray-200 text-xs font-bold rounded-md">Ansible</span>
+                <span className="px-3 py-1 bg-gray-200 dark:bg-white/10 text-gray-800 dark:text-gray-200 text-xs font-bold rounded-md">RHACM</span>
+              </div>
             </div>
             <div className="flex justify-between items-end mt-8">
               <div className="flex space-x-4">
