@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /api/llms.txt
+Allow: /llms.txt
+
+Sitemap: https://vishnoisuresh.github.io/suresh-vishnoi-portfolio/sitemap.xml

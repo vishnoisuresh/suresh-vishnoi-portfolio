@@ -1,0 +1,41 @@
+# Suresh Vishnoi - Cloud Consultant & IT Operations Specialist
+
+> Senior Cloud Consultant @ Red Hat
+> Infrastructure Architecture & Cloud-Native Engineering
+
+Hi, I'm Suresh Vishnoi. I help enterprise customers build stable, scalable, and modern IT infrastructures – focusing on Kubernetes, OpenShift, and Linux. I am based in Hamburg, Germany.
+
+## Core Expertise
+- **Top Skills:** Kubernetes, Linux, Openshift, Docker, DevOps, Software Development.
+- **Languages:** English (Native/Bilingual), Hindi (Native/Bilingual), German (Full Professional).
+
+## Certifications
+- Red Hat Certified Engineer (RHCE)
+- Red Hat Certified Specialist in Openshift Virtualization
+- Certified Kubernetes Administrator (CKA) & Security Specialist (CKS)
+
+## Professional Experience
+
+### Red Hat (Hamburg, Germany)
+**Senior Cloud Consultant** (Apr 2025 - Present)
+**Cloud Consultant** (Jan 2023 - Apr 2025)
+- RHEL + Ansible + GitOpsifying OpenShift
+- RHACM, RHACS, Quay, ODF, OpenShift AI, OCP-V and more.
+
+### Eurofins (Hamburg, Germany)
+**Senior Kubernetes Engineer** (Sep 2021 - Dec 2022)
+
+### Kuehne + Nagel (Hamburg Area, Germany)
+**System Engineer DevOps** (Nov 2018 - Sep 2021)
+
+### Mondia Media MENA (Hamburg Area, Germany)
+**Assistant IT Operations** (Jul 2017 - Oct 2018)
+
+## Education
+- **Fachhochschule Kiel**: Masters, Information Engineering (2017 - 2019)
+- **University of Plymouth**: Bachelor's degree Project, Computer Science (2015 - 2015)
+- **Vellore Institute of Technology**: Bachelor's degree, Computer Science (2011 - 2015)
+
+## Links
+- LinkedIn: https://www.linkedin.com/in/vishnoisuresh
+- StackOverflow: https://stackoverflow.com/users/8803619/suresh-vishnoi
